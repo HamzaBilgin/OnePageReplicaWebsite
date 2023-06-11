@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/commonLayout.css" />
+    <link rel="stylesheet" href="css/mainPage.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar__top">
+        <button></button>
+        <p class="navbar__top__i navbar__top__i--previous">
+          <i class="fas" id="navbar__top__i--previous">&#xf104;</i>
+        </p>
+        <ul class="navbar__top__ul">
+          <li>FREE DELIVERY FOR ORDERS OVER $30</li>
+        </ul>
+        <p class="navbar__top__i navbar__top__i--next">
+          <i class="fas">&#xf105;</i>
+        </p>
+      </div>
+      <div class="navbar__middle">
+        <div class="navbar__middle__left">
+          <div
+            class="navbar__middle__left__menuIcon"
+            onclick="myFunction(this)"
+          >
+            <div>
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </div>
+
+          <div class="navbar__middle__left__img">
+            <img src="img/navbarMiddleLogo.jpeg" alt="" />
+          </div>
+
+          <div class="navbar__middle__left__ul">
+            <ul>
+              <li>
+                <p>
+                  <i
+                    class="fa-solid fa-plus"
+                    style="opacity: 0.6; height: 80%"
+                  ></i>
+                </p>
+                <p>SHOP</p>
+              </li>
+              <li>
+                <p>
+                  <i
+                    class="fa-solid fa-plus"
+                    style="opacity: 0.6; height: 80%"
+                  ></i>
+                </p>
+                <p>ABOUT</p>
+              </li>
+              <li>
+                <p>
+                  <i
+                    class="fa-solid fa-plus"
+                    style="opacity: 0.6; height: 80%"
+                  ></i>
+                </p>
+                <p>BLOG</p>
+              </li>
+              <li>
+                <p>
+                  <i
+                    class="fa-solid fa-plus"
+                    style="opacity: 0.6; height: 80%"
+                  ></i>
+                </p>
+                <p>NYFM 22</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="navbar__middle__right">
+          <div class="navbar__middle__right__first">
+            <div class="navbar__middle__right__currency">
+              <span>United States (USD $)</span>
+              <p class="navbar__middle__right__currency__p">
+                <i class="fa-sharp fa-solid fa-angle-down"></i>
+              </p>
+            </div>
+
+            <p class="navbar__middle__right__search--icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </p>
+            <!-- <i class="fa-solid fa-magnifying-glass fa-rotate-90"></i> -->
+            <p>
+              <svg
+                data-aid="account-login"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon-hover-classes cursor-pointer"
+              >
+                <rect width="16" height="16" fill="none"></rect>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.07973 6.39395C3.07973 9.11133 5.2826 11.3142 7.99997 11.3142C10.7173 11.3142 12.9202 9.11133 12.9202 6.39395C12.9202 3.67658 10.7173 1.47371 7.99997 1.47371C5.2826 1.47371 3.07973 3.67658 3.07973 6.39395ZM4.9537 12.017C5.85933 12.5086 6.89704 12.7879 7.99997 12.7879C9.10291 12.7879 10.1406 12.5086 11.0463 12.017L14.9394 15.9101L16 14.8494L12.2878 11.1371C13.5813 9.96713 14.3939 8.27545 14.3939 6.39395C14.3939 2.86267 11.5313 0 7.99997 0C4.46869 0 1.60602 2.86267 1.60602 6.39395C1.60602 8.27546 2.4187 9.96716 3.71219 11.1372L-2.66474e-05 14.8494L1.06063 15.9101L4.9537 12.017Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </p>
+            <p>
+              <svg
+                data-aid="icon-bag"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon-hover-classes cursor-pointer"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.3404 5H15.5V6.5V14.5V16H14H2H0.5V14.5V6.5V5H1.6756C2.35583 2.13287 4.93284 0 8.00801 0C11.0832 0 13.6602 2.13287 14.3404 5ZM3.23103 5C3.87091 2.97109 5.76766 1.5 8.00801 1.5C10.2484 1.5 12.1451 2.97109 12.785 5H3.23103ZM2 6.5H14V14.5H2V6.5Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </p>
+          </div>
+          <div
+            class="navbar__middle__right__currencies dNone"
+            id="navbar__middle__right__currencies"
+          >
+            <ul>
+              <li>Azerbaijan (AZN ₼)</li>
+              <li>Canada (CAD $)</li>
+              <li>France (EUR €)</li>
+              <li>Japan (JPY ¥)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="navbar__middle__dropdown--shop dNone zIndex"
+        id="navbar__middle__dropdown--shop"
+      >
+        <ul class="navbar__middle__dropdown__ul">
+          <li>
+            <p>COLLECTIONS</p>
+            <div>
+              <ul class="navbar__middle__dropdown__ul__inner--ul">
+                <li>Spring/Summer</li>
+                <li>Ready-to-wear</li>
+                <li>Last Change</li>
+                <li>View all</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p>ALL STYLES</p>
+            <div>
+              <ul class="navbar__middle__dropdown__ul__inner--ul">
+                <li>One pieces</li>
+                <li>Dresses</li>
+                <li>Tops</li>
+                <li>Shirts</li>
+                <li>Bottoms</li>
+                <li>Skirts</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p>SALE</p>
+            <div>
+              <ul class="navbar__middle__dropdown__ul__inner--ul">
+                <li>Dresses</li>
+                <li>Tops</li>
+                <li>Bottoms</li>
+                <li>View all</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p>GIFT CARD</p>
+          </li>
+          <li>
+            <p>COMING SOON</p>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="navbar__middle__dropdown--about dNone zIndex"
+        id="navbar__middle__dropdown--about"
+      >
+        <ul class="navbar__middle__dropdown__ul">
+          <li>
+            <p>WHO WE ARE</p>
+          </li>
+          <li>
+            <p>FAQ</p>
+          </li>
+          <li>
+            <p>CONTACT</p>
+          </li>
+          <li>
+            <p>MEET THE TEAM</p>
+          </li>
+          <li>
+            <p>FAN PAGE</p>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="navbar__middle__dropdown--blog dNone zIndex"
+        id="navbar__middle__dropdown--blog"
+      >
+        <ul class="navbar__middle__dropdown__ul">
+          <li>
+            <p>NEWS</p>
+          </li>
+          <li>
+            <p>LOOK BOOK</p>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="navbar__middle__dropdown--nfym dNone zIndex"
+        id="navbar__middle__dropdown--nfym"
+      >
+        <div>
+          <img src="img/nyfm2.jpeg" alt="" />
+          <p>TEXTURED</p>
+        </div>
+        <div>
+          <img src="img/nyfm2.jpeg" alt="" />
+          <p>CLEAN COMFORT</p>
+        </div>
+        <div>
+          <img src="img/nyfm3.jpeg" alt="" />
+          <p>COLOR BLOCKING</p>
+        </div>
+        <div>
+          <img src="img/nyfm4.jpeg" alt="" />
+          <p>TAILORED FITS</p>
+        </div>
+      </div>
+
+      <div class="navbar__bottom">
+        <img src="img/navbarBottom.jpeg" alt="" />
+        <div class="navbar__bottom__div">
+          <div class="navbar__bottom__text">
+            <p class="navbar__bottom__p1">NEW BASICS</p>
+            <p class="navbar__bottom__p2">THE ART OF STYLE</p>
+          </div>
+
+          <div class="navbar__bottom__button">
+            <div class="navbar__bottom__button__div1">
+              <div>
+                <p class="navbar__bottom__pButton1">
+                  <a href="#">SHOP NEW IN</a>
+                </p>
+              </div>
+            </div>
+            <div class="navbar__bottom__button__div2">
+              <div>
+                <p class="navbar__bottom__pButton2"><a href="#">SHOP ALL</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2ce1731240.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/commonLayout.js"></script>
+  </body>
+</html>

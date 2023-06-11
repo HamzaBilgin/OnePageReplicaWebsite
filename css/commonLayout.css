@@ -1,0 +1,449 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*-------------- NAVBAR TOP CSS BASLANGIC ---------------------------------*/
+
+.navbar__top{
+    background-color: black;
+    color: white;
+    height: 44px;
+    font-size: 0.96rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__top__ul{
+    font-size: 0.96rem;
+    list-style-type: none;
+    width: 300px;
+    text-align: center;
+}
+
+.navbar__top__i{
+    font-size:24px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+.navbar__top button{
+    background-color: unset;
+}
+
+.navbar__top__ul li {
+    transition: opacity .5s cubic-bezier(.4,0,.2,1);
+  }
+  
+  .navbar__top__ul li.hide {
+    opacity: 0;
+  }
+
+/*-------------- NAVBAR TOP CSS SON ---------------------------------------*/
+
+/*-------------- NAVBAR middle CSS BASLANGIC ---------------------------------*/
+
+.navbar__middle{
+    display: flex;
+    height: 73px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+/* Menü ICON CSS BASLANGİC */
+.navbar__middle__left__menuIcon {
+    cursor: pointer;
+    display: none;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  
+/* Menü ICON CSS SON */
+.navbar__middle__left{
+    display: flex;
+    width: 800px;
+    margin-left: 30px;
+}
+
+
+.navbar__middle__left img{
+    padding-right: 24px;
+    cursor: pointer;
+    height: 30px;
+}
+.navbar__middle__left__img{
+    height: 73px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__middle__left ul{
+    display: flex;
+    list-style-type: none;
+    
+    height: 73px;
+}
+
+.navbar__middle__left li{
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    padding: 25px 0;
+    margin-right: 10px;
+
+}
+/* ALtını çizer */
+.navbar__middle__left li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.navbar__middle__left li:hover::after {
+    width: 100%;
+    left: 0;
+}
+.navbar__middle__left li p{
+    font-weight: bold;
+    padding-right: 12px;
+}
+/*----son ---- */
+
+.navbar__middle__right{
+    margin-right: 30px;
+    display: flex;
+    height: 50%;
+    font-size: 20px;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+    position: relative;
+
+}
+
+.navbar__middle__right__first{
+    display: flex;
+    width: 400px;
+    justify-content: end;
+    position: absolute;
+    
+
+}
+.navbar__middle__right__currency{
+    margin-right: 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar__middle__right__first p{
+    margin: 0 15px;
+    cursor: pointer;
+    
+}
+.navbar__middle__right__first p:hover{
+    scale: 1.2;
+}
+
+.navbar__middle__right__search--icon{
+    transition:all 0.15s ease-out
+}
+.navbar__middle__right__search--icon:hover{
+    transform:rotate(90deg);
+    scale: 1.2;
+}
+.navbar__middle__right__currencies{
+    position: absolute;
+    width: 400px;
+    top: 100%;
+    border: 1px solid black;
+    z-index: 3;
+    background-color: white;
+}
+.navbar__middle__right__currencies ul{
+    list-style-type: none;
+}
+.navbar__middle__right__currencies ul li{
+    padding: 15px 100px;
+    font-size: 0.96rem;
+    z-index: 3;
+}
+
+.navbar__middle__dropdown{
+    position: relative;
+}
+
+/* .navbar__middle__left__ul__shop:hover .navbar__middle__shop--dropdown{
+    display: block;
+} */
+.zIndex{
+    z-index: 99;
+    position: absolute;
+    background-color: white;
+    width: 100vw;
+}
+.navbar__middle__dropdown__ul{
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+.navbar__middle__dropdown__ul li>p{
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar__middle__dropdown__ul li>p:hover{
+    opacity: 0.5;
+}
+.navbar__middle__dropdown__ul>li{
+    width: 20%;
+    padding: 30px;
+    font-weight: bold;
+  }
+
+.navbar__middle__dropdown__ul__inner--ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+
+.navbar__middle__dropdown__ul__inner--ul li{
+    padding: 12.5px 0;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.navbar__middle__dropdown__ul__inner--ul li:hover{
+    opacity: 0.3;
+}
+
+.navbar__middle__dropdown--nfym{
+    display: flex;
+    height: 320px;
+}
+.navbar__middle__dropdown--nfym>div{
+    box-sizing: border-box;
+    width: 25%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    
+}
+.navbar__middle__dropdown--nfym>div img{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    transform: translateZ(100px);
+    
+}
+.navbar__middle__dropdown--nfym>div p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: bold;
+    color: white;
+
+}
+/* -----------------------------NAVBAR BOTTOM BASLANGİC ---------------------------------*/
+
+.navbar__bottom{
+    position: relative;
+  display: inline-block;
+    /* position: relative;
+    width: 100%;
+    height: 500px;
+    z-index: -1; */
+}
+
+.navbar__bottom img{
+    display: block;
+  width: 100%;
+  height: auto;
+    /* position: absolute;
+    width: 100vw;
+    z-index: -1; */
+}
+.navbar__bottom__div{
+    position: absolute;
+  right: 10%;
+  bottom: 15%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar__bottom .navbar__bottom__text p{
+   text-align: end;
+}
+
+.navbar__bottom .navbar__bottom__text .navbar__bottom__p1{
+    font-size: 20px;
+ }
+
+ .navbar__bottom .navbar__bottom__text .navbar__bottom__p2{
+    font-size: 42px;
+ }
+
+.navbar__bottom .navbar__bottom__button{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    position: relative;
+ }
+ 
+ .navbar__bottom .navbar__bottom__button a{
+    height: 39.2px;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    
+ }
+
+ .navbar__bottom .navbar__bottom__button .navbar__bottom__pButton1 a{
+    color:black;
+    position: relative;
+    z-index: 3;
+    transition:all 0.4s ease;
+ }
+
+ .navbar__bottom .navbar__bottom__button .navbar__bottom__pButton2 a{
+    color: white;
+    position: relative;
+    z-index: 3;
+    transition:all 0.4s ease;
+ }
+
+ /*Button animasyon*/
+.navbar__bottom__button>div{
+    height: 39.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 20px;
+}
+.navbar__bottom__button .navbar__bottom__button__div1{
+    background-color: unset;
+    z-index: 1;
+}
+
+.navbar__bottom .navbar__bottom__button .navbar__bottom__pButton1 a:hover{
+    color: white;
+}
+
+.navbar__bottom__button .navbar__bottom__button__div1>div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:50%;
+    height: 100%;
+    background-color: white;
+    transform-origin: right;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+    z-index: 2;
+  }
+
+  .navbar__bottom__button .navbar__bottom__button__div1>div::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    transform-origin: left;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+    z-index: 2;
+  }
+  .navbar__bottom__button .navbar__bottom__button__div1>div:hover::before {
+    transform: scaleX(0);
+  }
+  .navbar__bottom__button .navbar__bottom__button__div1>div:hover::after {
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  /*buton animasyon son*/
+  .navbar__bottom .navbar__bottom__button .navbar__bottom__pButton2 a:hover{
+    color: black;
+ }
+  .navbar__bottom__button .navbar__bottom__button__div2{
+    background-color: unset;
+    z-index: 1;
+}
+  .navbar__bottom__button .navbar__bottom__button__div2>div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:50%;
+    height: 100%;
+    background-color: white;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    z-index: 2;
+  }
+
+  .navbar__bottom__button .navbar__bottom__button__div2>div::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    z-index: 2;
+  }
+  .navbar__bottom__button .navbar__bottom__button__div2>div:hover::before {
+    transform: scaleX(1);
+  }
+  .navbar__bottom__button .navbar__bottom__button__div2>div:hover::after {
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+  }
+

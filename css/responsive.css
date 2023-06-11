@@ -1,0 +1,53 @@
+@media (max-width: 1000px) {
+    .navbar__middle__left__menuIcon {
+        width: 300px;
+        display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+    scale: 0.8;
+ 
+    }
+    .navbar__middle__left{
+        background-color: red;
+        display: flex;
+        position: relative;
+        
+        
+    }
+    .navbar__middle__left__ul{
+        width: 100vw;
+        background-color: white;
+        position: absolute;
+        top: 73px;
+        z-index: 4;
+        left: -30px!important;
+        height: 300px;
+    }
+
+    .navbar__middle__left ul{
+        display: block!important;
+        flex-direction: column!important;
+    }
+    .navbar__middle__left__ul li{
+        
+    }
+}
+    
+
+
+
+
+
+
+
+
+    .navbar__middle__right__currency{
+        display: none!important;
+    }
+    .navbar__middle__left{
+        justify-content: space-around;
+    }
+    .responsiveZIndex{
+        
+    }
+    

@@ -1,0 +1,69 @@
+.dNone{
+    display: none;
+}
+
+
+.dNoneAnimation{
+    animation: animationMiddleDropdown 1s linear 0.3s 1 normal both running;
+}
+.dNoneAnimationLiUp--1{
+    animation: animationMiddleDropdownliUp 1s linear 0.35s 1 normal both running;
+}
+.dNoneAnimationLiUp--2{
+    animation: animationMiddleDropdownliUp 1s linear 0.4s 1 normal both running;
+}
+.dNoneAnimationLiUp--3{
+    animation: animationMiddleDropdownliUp 1s linear 0.45s 1 normal both running;
+}
+.dNoneAnimationLiUp--4{
+    animation: animationMiddleDropdownliUp 1s linear 0.5s 1 normal both running;
+}
+.dNoneAnimationLiUp--5{
+    animation: animationMiddleDropdownliUp 1s linear 0.55s 1 normal both running;
+}
+
+@keyframes animationMiddleDropdown{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes animationMiddleDropdownliUp{
+    0%{
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+.dNoneAnimationScale{
+    animation: animationMiddleDropdownScale 0.5s linear 0.3s 1 normal both running,
+    animationMiddleDropdownOpacity 0.3s linear 0s 1 normal both running;
+}
+
+@keyframes animationMiddleDropdownScale{
+    0%{
+        
+        transform: translateZ(100);
+    }
+    100%{
+        
+        transform: translateZ(0px);
+    }
+}
+@keyframes animationMiddleDropdownOpacity{
+    0%{
+        
+        opacity: 0;
+    }
+    100%{
+        
+        opacity: 1;
+    }
+}
