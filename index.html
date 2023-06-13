@@ -8,9 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/commonLayout.css" />
     <link rel="stylesheet" href="css/mainPage.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -29,10 +30,7 @@
       </div>
       <div class="navbar__middle">
         <div class="navbar__middle__left">
-          <div
-            class="navbar__middle__left__menuIcon"
-            onclick="myFunction(this)"
-          >
+          <div class="navbar__middle__left__menuIcon">
             <div>
               <div class="bar1"></div>
               <div class="bar2"></div>
@@ -44,10 +42,12 @@
             <img src="img/navbarMiddleLogo.jpeg" alt="" />
           </div>
 
-          <div class="navbar__middle__left__ul">
+          <div
+            class="navbar__middle__left__ul navbar__middle__left__ul__nonResponsive dNoneResponsive"
+          >
             <ul>
               <li>
-                <p>
+                <p class="navbar__middle__left__ul__p">
                   <i
                     class="fa-solid fa-plus"
                     style="opacity: 0.6; height: 80%"
@@ -56,7 +56,7 @@
                 <p>SHOP</p>
               </li>
               <li>
-                <p>
+                <p class="navbar__middle__left__ul__p">
                   <i
                     class="fa-solid fa-plus"
                     style="opacity: 0.6; height: 80%"
@@ -65,7 +65,7 @@
                 <p>ABOUT</p>
               </li>
               <li>
-                <p>
+                <p class="navbar__middle__left__ul__p">
                   <i
                     class="fa-solid fa-plus"
                     style="opacity: 0.6; height: 80%"
@@ -74,7 +74,7 @@
                 <p>BLOG</p>
               </li>
               <li>
-                <p>
+                <p class="navbar__middle__left__ul__p">
                   <i
                     class="fa-solid fa-plus"
                     style="opacity: 0.6; height: 80%"
@@ -253,6 +253,107 @@
           <img src="img/nyfm4.jpeg" alt="" />
           <p>TAILORED FITS</p>
         </div>
+      </div>
+      <div
+        class="navbar__middle__left__ul__Responsive dNoneResponsive2 dNoneResponsive3"
+      >
+        <ul>
+          <li>
+            <p class="navbar__middle__left__ul__p">
+              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
+            </p>
+            <p>SHOP</p>
+          </li>
+          <li>
+            <p class="navbar__middle__left__ul__p">
+              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
+            </p>
+            <p>ABOUT</p>
+          </li>
+          <li>
+            <p class="navbar__middle__left__ul__p">
+              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
+            </p>
+            <p>BLOG</p>
+          </li>
+          <li>
+            <p class="navbar__middle__left__ul__p">
+              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
+            </p>
+            <p>NYFM 22</p>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar__middle__left__ul__Responsive--shop dNoneResponsive2 dNoneResponsive3" id="navbar__middle__left__ul__Responsive--shop">
+        <div class="navbar__middle__left__ul__Responsive--shop__header" style=" cursor: pointer;">
+          <p>
+            <i class="fas" id="navbar__top__i--previous">&#xf104;</i>
+          </p>
+          <p>SHOP</p>
+          <p></p>
+        </div>
+        <ul>
+          <li>
+            <p>COLLECTIONS</p>
+            <p class="navbar__middle__left__ul__p">
+              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
+            </p>
+          </li>
+          <li>
+            <p>ALL STYLES</p>
+            <p class="navbar__middle__left__ul__p">
+              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
+            </p>
+          </li>
+          <li>
+            <p>SALE</p>
+            <p class="navbar__middle__left__ul__p">
+              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
+            </p>
+          </li>
+          <li><p>GIFT CARD</p></li>
+          <li><p>COMING SOON</p></li>
+        </ul>
+      </div>
+      <div class="navbar__middle__left__ul__Responsive--about dNoneResponsive2 dNoneResponsive3" id="navbar__middle__left__ul__Responsive--about">
+        <div class="navbar__middle__left__ul__Responsive--about__header" style=" cursor: pointer;">
+          <p>
+            <i class="fas" id="navbar__top__i--previous">&#xf104;</i>
+          </p>
+          <p>ABOUT</p>
+          <p></p>
+        </div>
+        <ul>
+          <li>
+            <p>WHO WE ARE</p>
+          </li>
+          <li>
+            <p>FAQ</p>
+          </li>
+          <li>
+            <p>CONTACT</p>
+          </li>
+          <li><p>MEET THE TEAM</p></li>
+          <li><p>FAN PAGE</p></li>
+        </ul>
+      </div>
+      <div class="navbar__middle__left__ul__Responsive--blog dNoneResponsive2 dNoneResponsive3" id="navbar__middle__left__ul__Responsive--blog">
+        <div class="navbar__middle__left__ul__Responsive--blog__header" style=" cursor: pointer;">
+          <p>
+            <i class="fas" id="navbar__top__i--previous">&#xf104;</i>
+          </p>
+          <p>BLOG</p>
+          <p></p>
+        </div>
+        <ul>
+          <li>
+            <p>NEWS</p>
+          </li>
+          <li>
+            <p>LOOKBOOK</p>
+          </li>
+          
+        </ul>
       </div>
 
       <div class="navbar__bottom">

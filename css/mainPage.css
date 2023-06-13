@@ -1,6 +1,3 @@
-.dNone{
-    display: none;
-}
 
 
 .dNoneAnimation{
@@ -21,6 +18,7 @@
 .dNoneAnimationLiUp--5{
     animation: animationMiddleDropdownliUp 1s linear 0.55s 1 normal both running;
 }
+
 
 @keyframes animationMiddleDropdown{
     0%{
@@ -67,3 +65,79 @@
         opacity: 1;
     }
 }
+
+.dNoneAnimationOpacity{
+    animation: animationMiddleDropdownOpacity 0.3s linear 0s 1 normal both running;
+}
+
+
+
+@keyframes animationMiddleDropdownlileft{
+    0%{
+        opacity: 0;
+        transform: translatex(10%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.slide-in-1 {
+    animation: slide-in 0.2s linear 0.2s normal both running;;
+  }
+  
+  .slide-in-2 {
+    animation: slide-in 0.2s linear 0.3s normal both running;;
+  }
+  
+  .slide-in-3 {
+    animation: slide-in 0.2s linear 0.4s normal both running;;
+  }
+  
+  .slide-in-4 {
+    animation: slide-in 0.2s linear 0.5s normal both running;;
+  }
+  
+  .slide-in-5 {
+    animation: slide-in 0.2s linear 0.5s normal both running;;
+  }
+
+  .slide-out{
+    animation: slide-out 0.5s linear 0.2s normal both running;;
+  }
+  .slide-back{
+    animation: slide-outBack 1s linear 0.2s normal both running;
+  }
+  
+@keyframes slide-in {
+    0% {
+      transform: translateX(-5%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-out {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-outBack {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }

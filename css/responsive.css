@@ -1,53 +1,173 @@
+@media (min-width: 1000px) {
+    .dNoneResponsive3{
+        display: none;
+    }
+}
 @media (max-width: 1000px) {
+    .dNoneResponsive{ /*dNone2*/
+        display: none;
+    }
     .navbar__middle__left__menuIcon {
         width: 300px;
-        display: flex!important;
-    flex-direction: column;
-    justify-content: center;
-    scale: 0.8;
- 
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        scale: 0.8;
     }
-    .navbar__middle__left{
-        background-color: red;
+
+    .navbar__middle__left__ul__Responsive {
+        z-index: 99;
         display: flex;
         position: relative;
-        
-        
+
     }
-    .navbar__middle__left__ul{
+    .navbar__middle__left__ul__Responsive > ul {
         width: 100vw;
         background-color: white;
         position: absolute;
-        top: 73px;
         z-index: 4;
-        left: -30px!important;
-        height: 300px;
+        left: -30px !important;
+        height: 400px;
+        margin-left: 30px;
+        padding: 30px;
+    }
+   
+    .navbar__middle__left__ul__Responsive > ul li{
+        font-size: 18px;
+        font-weight: bold;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        cursor: pointer;
+        margin: 16px 0;
+    }
+    .navbar__middle__left__ul__Responsive li>.navbar__middle__left__ul__p{
+        width: 22.4px;
+        height: 30px;
+    }
+    .dNoneResponsive2{
+        display: none;
     }
 
-    .navbar__middle__left ul{
-        display: block!important;
-        flex-direction: column!important;
+    .navbar__middle__left__ul__Responsive--shop{
+        position: absolute;
+        width: 100%;
+        z-index: 99;
     }
-    .navbar__middle__left__ul li{
+    .navbar__middle__left__ul__Responsive--shop__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 16px 30px;
+    }
+    .navbar__middle__left__ul__Responsive--shop li>.navbar__middle__left__ul__p{
+        width: 22.4px;
+        height: 30px;
         
+    }
+    .navbar__middle__left__ul__Responsive--shop> ul{
+        position: absolute;
+        width: 100%;
+        height: 381.6;
+        background-color: white;
+    }
+
+    .navbar__middle__left__ul__Responsive--shop> ul li{
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 16px 30px;
+        cursor: pointer;
+    
+    }
+
+    .navbar__middle__left__ul__Responsive--about{
+        position: relative;
+        width: 100%;
+        z-index: 99;
+    }
+    .navbar__middle__left__ul__Responsive--about__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 16px 30px;
+    }
+    .navbar__middle__left__ul__Responsive--about li>.navbar__middle__left__ul__p{
+        width: 22.4px;
+        height: 30px;
+        
+    }
+    .navbar__middle__left__ul__Responsive--about> ul{
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-color: white;
+    }
+
+    .navbar__middle__left__ul__Responsive--about> ul li{
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 16px 30px;
+        cursor: pointer;
+    
+    }
+
+
+    .navbar__middle__left__ul__Responsive--blog{
+        position: relative;
+        width: 100%;
+        z-index: 99;
+    }
+    .navbar__middle__left__ul__Responsive--blog__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 16px 30px;
+    }
+    .navbar__middle__left__ul__Responsive--blog li>.navbar__middle__left__ul__p{
+        width: 22.4px;
+        height: 30px;
+        
+    }
+    .navbar__middle__left__ul__Responsive--blog> ul{
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-color: white;
+    }
+
+    .navbar__middle__left__ul__Responsive--blog> ul li{
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 16px 30px;
+        cursor: pointer;
+    
     }
 }
-    
 
+.navbar__middle__right__currency {
+    display: none !important;
+}
+.navbar__middle__left {
+    justify-content: space-between;
+}
 
-
-
-
-
-
-
-    .navbar__middle__right__currency{
-        display: none!important;
-    }
-    .navbar__middle__left{
-        justify-content: space-around;
-    }
-    .responsiveZIndex{
-        
-    }
-    
