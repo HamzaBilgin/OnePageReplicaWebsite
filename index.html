@@ -8,11 +8,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/commonLayout.css" />
-    <link rel="stylesheet" href="css/mainPage.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components/index/intro.css" />
+    <link rel="stylesheet" href="css/layout/navbar.css" />
+    <link rel="stylesheet" href="css/layout/navbarResponsive.css" />
 
-    <title>Document</title>
+    <title>Hamza</title>
   </head>
   <body>
     <div class="navbar">
@@ -39,7 +41,7 @@
           </div>
 
           <div class="navbar__middle__left__img">
-            <img src="img/navbarMiddleLogo.jpeg" alt="" />
+            <img src="img/index/navbar/navbarMiddleLogo.jpeg" alt="" />
           </div>
 
           <div
@@ -150,232 +152,276 @@
           </div>
         </div>
       </div>
-      <div
-        class="navbar__middle__dropdown--shop dNone zIndex"
-        id="navbar__middle__dropdown--shop"
-      >
-        <ul class="navbar__middle__dropdown__ul">
-          <li>
-            <p>COLLECTIONS</p>
-            <div>
-              <ul class="navbar__middle__dropdown__ul__inner--ul">
-                <li>Spring/Summer</li>
-                <li>Ready-to-wear</li>
-                <li>Last Change</li>
-                <li>View all</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <p>ALL STYLES</p>
-            <div>
-              <ul class="navbar__middle__dropdown__ul__inner--ul">
-                <li>One pieces</li>
-                <li>Dresses</li>
-                <li>Tops</li>
-                <li>Shirts</li>
-                <li>Bottoms</li>
-                <li>Skirts</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <p>SALE</p>
-            <div>
-              <ul class="navbar__middle__dropdown__ul__inner--ul">
-                <li>Dresses</li>
-                <li>Tops</li>
-                <li>Bottoms</li>
-                <li>View all</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <p>GIFT CARD</p>
-          </li>
-          <li>
-            <p>COMING SOON</p>
-          </li>
-        </ul>
-      </div>
-      <div
-        class="navbar__middle__dropdown--about dNone zIndex"
-        id="navbar__middle__dropdown--about"
-      >
-        <ul class="navbar__middle__dropdown__ul">
-          <li>
-            <p>WHO WE ARE</p>
-          </li>
-          <li>
-            <p>FAQ</p>
-          </li>
-          <li>
-            <p>CONTACT</p>
-          </li>
-          <li>
-            <p>MEET THE TEAM</p>
-          </li>
-          <li>
-            <p>FAN PAGE</p>
-          </li>
-        </ul>
-      </div>
-      <div
-        class="navbar__middle__dropdown--blog dNone zIndex"
-        id="navbar__middle__dropdown--blog"
-      >
-        <ul class="navbar__middle__dropdown__ul">
-          <li>
-            <p>NEWS</p>
-          </li>
-          <li>
-            <p>LOOK BOOK</p>
-          </li>
-        </ul>
-      </div>
-      <div
-        class="navbar__middle__dropdown--nfym dNone zIndex"
-        id="navbar__middle__dropdown--nfym"
-      >
-        <div>
-          <img src="img/nyfm2.jpeg" alt="" />
-          <p>TEXTURED</p>
+      <div class="navbar__middle__dropdown">
+        <div
+          class="navbar__middle__dropdown--shop dNone zIndex"
+          id="navbar__middle__dropdown--shop"
+        >
+          <ul class="navbar__middle__dropdown__ul">
+            <li>
+              <p>COLLECTIONS</p>
+              <div>
+                <ul class="navbar__middle__dropdown__ul__inner--ul">
+                  <li>Spring/Summer</li>
+                  <li>Ready-to-wear</li>
+                  <li>Last Change</li>
+                  <li>View all</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p>ALL STYLES</p>
+              <div>
+                <ul class="navbar__middle__dropdown__ul__inner--ul">
+                  <li>One pieces</li>
+                  <li>Dresses</li>
+                  <li>Tops</li>
+                  <li>Shirts</li>
+                  <li>Bottoms</li>
+                  <li>Skirts</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p>SALE</p>
+              <div>
+                <ul class="navbar__middle__dropdown__ul__inner--ul">
+                  <li>Dresses</li>
+                  <li>Tops</li>
+                  <li>Bottoms</li>
+                  <li>View all</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p>GIFT CARD</p>
+            </li>
+            <li>
+              <p>COMING SOON</p>
+            </li>
+          </ul>
         </div>
-        <div>
-          <img src="img/nyfm2.jpeg" alt="" />
-          <p>CLEAN COMFORT</p>
+        <div
+          class="navbar__middle__dropdown--about dNone zIndex"
+          id="navbar__middle__dropdown--about"
+        >
+          <ul class="navbar__middle__dropdown__ul">
+            <li>
+              <p>WHO WE ARE</p>
+            </li>
+            <li>
+              <p>FAQ</p>
+            </li>
+            <li>
+              <p>CONTACT</p>
+            </li>
+            <li>
+              <p>MEET THE TEAM</p>
+            </li>
+            <li>
+              <p>FAN PAGE</p>
+            </li>
+          </ul>
         </div>
-        <div>
-          <img src="img/nyfm3.jpeg" alt="" />
-          <p>COLOR BLOCKING</p>
+        <div
+          class="navbar__middle__dropdown--blog dNone zIndex"
+          id="navbar__middle__dropdown--blog"
+        >
+          <ul class="navbar__middle__dropdown__ul">
+            <li>
+              <p>NEWS</p>
+            </li>
+            <li>
+              <p>LOOK BOOK</p>
+            </li>
+          </ul>
         </div>
-        <div>
-          <img src="img/nyfm4.jpeg" alt="" />
-          <p>TAILORED FITS</p>
+        <div
+          class="navbar__middle__dropdown--nfym dNone zIndex"
+          id="navbar__middle__dropdown--nfym"
+        >
+          <div>
+            <img src="img/index/navbar/nyfm2.jpeg" alt="" />
+            <p>TEXTURED</p>
+          </div>
+          <div>
+            <img src="img/index/navbar/nyfm2.jpeg" alt="" />
+            <p>CLEAN COMFORT</p>
+          </div>
+          <div>
+            <img src="img/index/navbar/nyfm3.jpeg" alt="" />
+            <p>COLOR BLOCKING</p>
+          </div>
+          <div>
+            <img src="img/index/navbar/nyfm4.jpeg" alt="" />
+            <p>TAILORED FITS</p>
+          </div>
         </div>
       </div>
-      <div
-        class="navbar__middle__left__ul__Responsive dNoneResponsive2 dNoneResponsive3"
-      >
-        <ul>
-          <li>
-            <p class="navbar__middle__left__ul__p">
-              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
+      <div class="navbar__middle__dropdown--responsive">
+        <div
+          class="navbar__middle__left__ul__Responsive dNoneResponsive2 dNoneResponsive3"
+        >
+          <ul>
+            <li>
+              <p class="navbar__middle__left__ul__p">
+                <i
+                  class="fa-solid fa-plus"
+                  style="opacity: 0.6; height: 80%"
+                ></i>
+              </p>
+              <p>SHOP</p>
+            </li>
+            <li>
+              <p class="navbar__middle__left__ul__p">
+                <i
+                  class="fa-solid fa-plus"
+                  style="opacity: 0.6; height: 80%"
+                ></i>
+              </p>
+              <p>ABOUT</p>
+            </li>
+            <li>
+              <p class="navbar__middle__left__ul__p">
+                <i
+                  class="fa-solid fa-plus"
+                  style="opacity: 0.6; height: 80%"
+                ></i>
+              </p>
+              <p>BLOG</p>
+            </li>
+            <li>
+              <p class="navbar__middle__left__ul__p">
+                <i
+                  class="fa-solid fa-plus"
+                  style="opacity: 0.6; height: 80%"
+                ></i>
+              </p>
+              <p>NYFM 22</p>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="navbar__middle__left__ul__Responsive--shop dNoneResponsive2 dNoneResponsive3"
+          id="navbar__middle__left__ul__Responsive--shop"
+        >
+          <div
+            class="navbar__middle__left__ul__Responsive--shop__header"
+            style="cursor: pointer"
+          >
+            <p>
+              <i class="fas" id="navbar__top__i--previous">&#xf104;</i>
             </p>
             <p>SHOP</p>
-          </li>
-          <li>
-            <p class="navbar__middle__left__ul__p">
-              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
+            <p></p>
+          </div>
+          <ul>
+            <li>
+              <p>COLLECTIONS</p>
+              <p class="navbar__middle__left__ul__p">
+                <i
+                  class="fa-solid fa-plus"
+                  style="opacity: 0.6; height: 80%"
+                ></i>
+              </p>
+            </li>
+            <li>
+              <p>ALL STYLES</p>
+              <p class="navbar__middle__left__ul__p">
+                <i
+                  class="fa-solid fa-plus"
+                  style="opacity: 0.6; height: 80%"
+                ></i>
+              </p>
+            </li>
+            <li>
+              <p>SALE</p>
+              <p class="navbar__middle__left__ul__p">
+                <i
+                  class="fa-solid fa-plus"
+                  style="opacity: 0.6; height: 80%"
+                ></i>
+              </p>
+            </li>
+            <li><p>GIFT CARD</p></li>
+            <li><p>COMING SOON</p></li>
+          </ul>
+        </div>
+        <div
+          class="navbar__middle__left__ul__Responsive--about dNoneResponsive2 dNoneResponsive3"
+          id="navbar__middle__left__ul__Responsive--about"
+        >
+          <div
+            class="navbar__middle__left__ul__Responsive--about__header"
+            style="cursor: pointer"
+          >
+            <p>
+              <i class="fas" id="navbar__top__i--previous">&#xf104;</i>
             </p>
             <p>ABOUT</p>
-          </li>
-          <li>
-            <p class="navbar__middle__left__ul__p">
-              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
+            <p></p>
+          </div>
+          <ul>
+            <li>
+              <p>WHO WE ARE</p>
+            </li>
+            <li>
+              <p>FAQ</p>
+            </li>
+            <li>
+              <p>CONTACT</p>
+            </li>
+            <li><p>MEET THE TEAM</p></li>
+            <li><p>FAN PAGE</p></li>
+          </ul>
+        </div>
+        <div
+          class="navbar__middle__left__ul__Responsive--blog dNoneResponsive2 dNoneResponsive3"
+          id="navbar__middle__left__ul__Responsive--blog"
+        >
+          <div
+            class="navbar__middle__left__ul__Responsive--blog__header"
+            style="cursor: pointer"
+          >
+            <p>
+              <i class="fas" id="navbar__top__i--previous">&#xf104;</i>
             </p>
             <p>BLOG</p>
-          </li>
-          <li>
-            <p class="navbar__middle__left__ul__p">
-              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
-            </p>
-            <p>NYFM 22</p>
-          </li>
-        </ul>
-      </div>
-      <div class="navbar__middle__left__ul__Responsive--shop dNoneResponsive2 dNoneResponsive3" id="navbar__middle__left__ul__Responsive--shop">
-        <div class="navbar__middle__left__ul__Responsive--shop__header" style=" cursor: pointer;">
-          <p>
-            <i class="fas" id="navbar__top__i--previous">&#xf104;</i>
-          </p>
-          <p>SHOP</p>
-          <p></p>
-        </div>
-        <ul>
-          <li>
-            <p>COLLECTIONS</p>
-            <p class="navbar__middle__left__ul__p">
-              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
-            </p>
-          </li>
-          <li>
-            <p>ALL STYLES</p>
-            <p class="navbar__middle__left__ul__p">
-              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
-            </p>
-          </li>
-          <li>
-            <p>SALE</p>
-            <p class="navbar__middle__left__ul__p">
-              <i class="fa-solid fa-plus" style="opacity: 0.6; height: 80%"></i>
-            </p>
-          </li>
-          <li><p>GIFT CARD</p></li>
-          <li><p>COMING SOON</p></li>
-        </ul>
-      </div>
-      <div class="navbar__middle__left__ul__Responsive--about dNoneResponsive2 dNoneResponsive3" id="navbar__middle__left__ul__Responsive--about">
-        <div class="navbar__middle__left__ul__Responsive--about__header" style=" cursor: pointer;">
-          <p>
-            <i class="fas" id="navbar__top__i--previous">&#xf104;</i>
-          </p>
-          <p>ABOUT</p>
-          <p></p>
-        </div>
-        <ul>
-          <li>
-            <p>WHO WE ARE</p>
-          </li>
-          <li>
-            <p>FAQ</p>
-          </li>
-          <li>
-            <p>CONTACT</p>
-          </li>
-          <li><p>MEET THE TEAM</p></li>
-          <li><p>FAN PAGE</p></li>
-        </ul>
-      </div>
-      <div class="navbar__middle__left__ul__Responsive--blog dNoneResponsive2 dNoneResponsive3" id="navbar__middle__left__ul__Responsive--blog">
-        <div class="navbar__middle__left__ul__Responsive--blog__header" style=" cursor: pointer;">
-          <p>
-            <i class="fas" id="navbar__top__i--previous">&#xf104;</i>
-          </p>
-          <p>BLOG</p>
-          <p></p>
-        </div>
-        <ul>
-          <li>
-            <p>NEWS</p>
-          </li>
-          <li>
-            <p>LOOKBOOK</p>
-          </li>
-          
-        </ul>
-      </div>
-
-      <div class="navbar__bottom">
-        <img src="img/navbarBottom.jpeg" alt="" />
-        <div class="navbar__bottom__div">
-          <div class="navbar__bottom__text">
-            <p class="navbar__bottom__p1">NEW BASICS</p>
-            <p class="navbar__bottom__p2">THE ART OF STYLE</p>
+            <p></p>
           </div>
+          <ul>
+            <li>
+              <p>NEWS</p>
+            </li>
+            <li>
+              <p>LOOKBOOK</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-          <div class="navbar__bottom__button">
-            <div class="navbar__bottom__button__div1">
-              <div>
-                <p class="navbar__bottom__pButton1">
-                  <a href="#">SHOP NEW IN</a>
-                </p>
-              </div>
+    <div class="intro">
+      <img src="img/index/intro/intro.jpeg" alt="" />
+      <div class="intro__div">
+        <div class="intro__text">
+          <p class="intro__p1">NEW BASICS</p>
+          <p class="intro__p2">THE ART OF STYLE</p>
+        </div>
+
+        <div class="intro__button">
+          <div class="intro__button__div1 buttonAnimationWhiteToUpset">
+            <div>
+              <p class="intro__pButton1 buttonAnimationWhiteToUpsetP">
+                <a href="#">SHOP NEW IN</a>
+              </p>
             </div>
-            <div class="navbar__bottom__button__div2">
-              <div>
-                <p class="navbar__bottom__pButton2"><a href="#">SHOP ALL</a></p>
-              </div>
+          </div>
+          <div class="intro__button__div2 buttonAnimationUpsetToWhite">
+            <div>
+              <p class="intro__pButton2 buttonAnimationUpsetToWhiteP">
+                <a href="#">SHOP ALL</a>
+              </p>
             </div>
           </div>
         </div>

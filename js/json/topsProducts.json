@@ -1,0 +1,109 @@
+[
+    {
+        "id": 1,
+        "name": "Sleeveless Top",
+        "status":"SALE",
+        "price": {
+            "oldPrice": 80.00,
+            "newPrice": 69.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/topsProducts/product1/1.webp",
+            "secondImage": "img/indexSlider/topsProducts/product1/2.webp"
+
+        }
+    },
+    {
+        "id": 2,
+        "name": "Sleeveless Top",
+        "status":"SOLD OUT",
+        "price": {
+            "oldPrice": 80.00,
+            "newPrice": 69.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/topsProducts/product2/1.webp",
+            "secondImage": "img/indexSlider/topsProducts/product21/2.webp"
+
+        }
+    },
+    {
+        "id": 3,
+        "name": "Tailored Long Sleeve Top",
+        "price": {
+            "newPrice": 49.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/topsProducts/product3/1.webp",
+            "secondImage": "img/indexSlider/topsProducts/product3/2.webp"
+
+        }
+    },
+    {
+        "id": 4,
+        "name": "Sleeveless Vest Top",
+        "price": {
+            "newPrice": 49.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/topsProducts/product4/1.webp",
+            "secondImage": "img/indexSlider/topsProducts/product4/2.webp"
+
+        }
+    },
+    {
+        "id": 5,
+        "name": "Square-neck Sleeveless Top",
+        "status":"SALE",
+        "price": {
+            "oldPrice": 80.00,
+            "newPrice": 69.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/topsProducts/product5/1.webp",
+            "secondImage": "img/indexSlider/topsProducts/product5/2.webp"
+
+        }
+    },
+    {
+        "id": 6,
+        "name": "Tailored Pocket Shirt",
+        "status":"SALE",
+        "price": {
+            "oldPrice": 80.00,
+            "newPrice": 69.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/topsProducts/product6/1.webp",
+            "secondImage": "img/indexSlider/topsProducts/product6/2.webp"
+
+        }
+    },
+    {
+        "id": 7,
+        "name": "Pyjama Long Sleeve Top",
+        "status":"SOLD OUT",
+        "price": {
+            "newPrice": 49.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/topsProducts/product7/1.webp",
+            "secondImage": "img/indexSlider/topsProducts/product7/2.webp"
+
+        }
+    },
+    {
+        "id": 8,
+        "name": "Ruffled Sleeveless Top",
+        "status":"SALE",
+        "price": {
+            "oldPrice": 80.00,
+            "newPrice": 69.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/topsProducts/product8/1.webp",
+            "secondImage": "img/indexSlider/topsProducts/product8/2.webp"
+
+        }
+    }
+]

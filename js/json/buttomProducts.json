@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "name": "SRAP SKIRT",
+        "status":"SALE",
+        "price": {
+            "oldPrice": 100.00,
+            "newPrice": 89.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/bottomsProducts/product1/1.webp",
+            "secondImage": "img/indexSlider/bottomsProducts/product1/2.webp"
+
+        }
+    },
+    {
+        "id": 2,
+        "name": "PLEAT DETAIL TROUSERS",
+        "price": {
+            "newPrice": 89.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/bottomsProducts/product2/1.webp",
+            "secondImage": "img/indexSlider/bottomsProducts/product21/2.webp"
+
+        }
+    },
+    {
+        "id": 3,
+        "name": "Pleat Detail Mid Length Skirt",
+        "price": {
+            "newPrice": 89.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/bottomsProducts/product3/1.webp",
+            "secondImage": "img/indexSlider/bottomsProducts/product3/2.webp"
+
+        }
+    },
+    {
+        "id": 4,
+        "name": "Double Pocket Mid Length Skirt",
+        "status":"SOLD OUT",
+        "price": {
+            "newPrice": 49.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/bottomsProducts/product4/1.webp",
+            "secondImage": "img/indexSlider/bottomsProducts/product4/2.webp"
+
+        }
+    },
+    {
+        "id": 5,
+        "name": "Asymmetric Corduroy Skirt",
+        "price": {
+            "newPrice": 79.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/bottomsProducts/product5/1.webp",
+            "secondImage": "img/indexSlider/bottomsProducts/product5/2.webp"
+
+        }
+    },
+    {
+        "id": 6,
+        "name": "Asymmetric Mid Length Skirt",
+        "status":"SOLD OUT",
+        "price": {
+            "newPrice": 79.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/bottomsProducts/product6/1.webp",
+            "secondImage": "img/indexSlider/bottomsProducts/product6/2.webp"
+
+        }
+    },
+    {
+        "id": 7,
+        "name": "Tailored Wrap Skirt",
+        "status":"SALE",
+        "price": {
+            "oldPrice": 100.00,
+            "newPrice": 89.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/bottomsProducts/product7/1.webp",
+            "secondImage": "img/indexSlider/bottomsProducts/product7/2.webp"
+
+        }
+    },
+    {
+        "id": 8,
+        "name": "Tailored Trousers",
+        "price": {
+            "newPrice": 89.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/bottomsProducts/product8/1.webp",
+            "secondImage": "img/indexSlider/bottomsProducts/product8/2.webp"
+
+        }
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Maxi Belted Dress",
+        "status":"SALE",
+        "price": {
+            "oldPrice": 150.00,
+            "newPrice": 129.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/dressesProducts/product1/1.webp",
+            "secondImage": "img/indexSlider/dressesProducts/product1/2.webp"
+
+        }
+    },
+    {
+        "id": 2,
+        "name": "Duo Tone Mid Length Dress",
+        "price": {
+            "newPrice": 99.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/dressesProducts/product2/1.webp",
+            "secondImage": "img/indexSlider/dressesProducts/product2/2.webp"
+
+        }
+    },
+    {
+        "id": 3,
+        "name": "Strappy Slip Dress",
+        "price": {
+            "newPrice": 119.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/dressesProducts/product3/1.webp",
+            "secondImage": "img/indexSlider/dressesProducts/product3/2.webp"
+
+        }
+    },
+    {
+        "id": 4,
+        "name": "Long Sleeve A-line Dress",
+        "status":"SALE",
+        "price": {
+            "oldPrice": 130.00,
+            "newPrice": 119.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/dressesProducts/product4/1.webp",
+            "secondImage": "img/indexSlider/dressesProducts/product4/2.webp"
+
+        }
+    },
+    {
+        "id": 5,
+        "name": "Maxi Strap Dress",
+        "price": {
+            "newPrice": 119.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/dressesProducts/product5/1.webp",
+            "secondImage": "img/indexSlider/dressesProducts/product5/2.webp"
+
+        }
+    },
+    {
+        "id": 6,
+        "name": "Double Pocket Mid Length Dress",
+        "price": {
+            "newPrice": 99.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/dressesProducts/product6/1.webp",
+            "secondImage": "img/indexSlider/dressesProducts/product6/2.webp"
+
+        }
+    },
+    {
+        "id": 7,
+        "name": "Double Strap SlIP Dress",
+        "price": {
+            "newPrice": 119.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/dressesProducts/product7/1.webp",
+            "secondImage": "img/indexSlider/dressesProducts/product7/2.webp"
+
+        }
+    },
+    {
+        "id": 8,
+        "name": "Gathered Mid Length Dress",
+        "price": {
+            "newPrice": 99.00
+        },
+        "img": {
+            "firstImage": "img/indexSlider/dressesProducts/product8/1.webp",
+            "secondImage": "img/indexSlider/dressesProducts/product8/2.webp"
+
+        }
+    }
+]
