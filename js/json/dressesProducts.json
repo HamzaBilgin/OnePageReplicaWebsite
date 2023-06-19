@@ -8,8 +8,8 @@
             "newPrice": 129.00
         },
         "img": {
-            "firstImage": "img/indexSlider/dressesProducts/product1/1.webp",
-            "secondImage": "img/indexSlider/dressesProducts/product1/2.webp"
+            "firstImage": "img/index/slider/dressesProducts/product1/1.webp",
+            "secondImage": "img/index/slider/dressesProducts/product1/2.webp"
 
         }
     },
@@ -20,8 +20,8 @@
             "newPrice": 99.00
         },
         "img": {
-            "firstImage": "img/indexSlider/dressesProducts/product2/1.webp",
-            "secondImage": "img/indexSlider/dressesProducts/product2/2.webp"
+            "firstImage": "img/index/slider/dressesProducts/product2/1.webp",
+            "secondImage": "img/index/slider/dressesProducts/product2/2.webp"
 
         }
     },
@@ -32,8 +32,8 @@
             "newPrice": 119.00
         },
         "img": {
-            "firstImage": "img/indexSlider/dressesProducts/product3/1.webp",
-            "secondImage": "img/indexSlider/dressesProducts/product3/2.webp"
+            "firstImage": "img/index/slider/dressesProducts/product3/1.webp",
+            "secondImage": "img/index/slider/dressesProducts/product3/2.webp"
 
         }
     },
@@ -46,8 +46,8 @@
             "newPrice": 119.00
         },
         "img": {
-            "firstImage": "img/indexSlider/dressesProducts/product4/1.webp",
-            "secondImage": "img/indexSlider/dressesProducts/product4/2.webp"
+            "firstImage": "img/index/slider/dressesProducts/product4/1.webp",
+            "secondImage": "img/index/slider/dressesProducts/product4/2.webp"
 
         }
     },
@@ -58,8 +58,8 @@
             "newPrice": 119.00
         },
         "img": {
-            "firstImage": "img/indexSlider/dressesProducts/product5/1.webp",
-            "secondImage": "img/indexSlider/dressesProducts/product5/2.webp"
+            "firstImage": "img/index/slider/dressesProducts/product5/1.webp",
+            "secondImage": "img/index/slider/dressesProducts/product5/2.webp"
 
         }
     },
@@ -70,8 +70,8 @@
             "newPrice": 99.00
         },
         "img": {
-            "firstImage": "img/indexSlider/dressesProducts/product6/1.webp",
-            "secondImage": "img/indexSlider/dressesProducts/product6/2.webp"
+            "firstImage": "img/index/slider/dressesProducts/product6/1.webp",
+            "secondImage": "img/index/slider/dressesProducts/product6/2.webp"
 
         }
     },
@@ -82,8 +82,8 @@
             "newPrice": 119.00
         },
         "img": {
-            "firstImage": "img/indexSlider/dressesProducts/product7/1.webp",
-            "secondImage": "img/indexSlider/dressesProducts/product7/2.webp"
+            "firstImage": "img/index/slider/dressesProducts/product7/1.webp",
+            "secondImage": "img/index/slider/dressesProducts/product7/2.webp"
 
         }
     },
@@ -94,8 +94,8 @@
             "newPrice": 99.00
         },
         "img": {
-            "firstImage": "img/indexSlider/dressesProducts/product8/1.webp",
-            "secondImage": "img/indexSlider/dressesProducts/product8/2.webp"
+            "firstImage": "img/index/slider/dressesProducts/product8/1.webp",
+            "secondImage": "img/index/slider/dressesProducts/product8/2.webp"
 
         }
     }

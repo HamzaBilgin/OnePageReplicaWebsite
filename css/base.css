@@ -7,3 +7,93 @@
 .dNone{
     display: none;
 }
+/*Altını çizmek için css start */
+.underline li{
+    position: relative;
+}
+.underline li::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.underline li:hover::after {
+    width: 100%;
+    left: 0;
+}
+.underline li p{
+    font-weight: bold;
+    padding-right: 12px;
+}
+/*Altını çizmek için css end */
+/*Altını çizmek için li css start */
+.underlineLi{
+    position: relative;
+}
+.underlineLi::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.underlineLi:hover::after {
+    width: 100%;
+    left: 0;
+}
+.underline li p{
+    font-weight: bold;
+    padding-right: 12px;
+}
+/*Altını çizmek için li css end */
+
+/* Opacity Animation start */
+.opacityToOne{
+transition:opacity 0.15s linear;
+}
+.opacityToOne:hover{
+    opacity: 1;
+} 
+/* Opacity Animation end */
+
+.underliAnimation{
+    position: relative;
+}
+.underliAnimation::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    animation: underliPlay 0.3s linear 1 normal both running;
+}
+
+@keyframes underliPlay{
+    0%{
+        width: 0;
+        left: 50%;
+    }
+    100%{
+        width: 100%;
+        left: 0;
+    }
+}
+/* üzerine gelince opacity i 0.7 den 1 e çıkarır start*/
+.opacityToOneHover{
+    opacity: 0.7;
+}
+.opacityToOneHover:hover{
+    opacity: 1;
+}
+/* üzerine gelince opacity i 0.7 den 1 e çıkarır end*/

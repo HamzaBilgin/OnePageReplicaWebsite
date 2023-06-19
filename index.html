@@ -4,19 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--! fontawesome cdn -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <!--! glidejs cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css">
+    
+    <!--! local css -->
     <link rel="stylesheet" href="css/animation.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/components/index/intro.css" />
+    <link rel="stylesheet" href="css/components/index/products.css">
     <link rel="stylesheet" href="css/layout/navbar.css" />
     <link rel="stylesheet" href="css/layout/navbarResponsive.css" />
 
     <title>Hamza</title>
   </head>
   <body>
+     <!--! navbar start -->
     <div class="navbar">
       <div class="navbar__top">
         <button></button>
@@ -47,7 +54,7 @@
           <div
             class="navbar__middle__left__ul navbar__middle__left__ul__nonResponsive dNoneResponsive"
           >
-            <ul>
+            <ul class="underline">
               <li>
                 <p class="navbar__middle__left__ul__p">
                   <i
@@ -152,6 +159,7 @@
           </div>
         </div>
       </div>
+      <!--! navbar dropdown start -->
       <div class="navbar__middle__dropdown">
         <div
           class="navbar__middle__dropdown--shop dNone zIndex"
@@ -258,6 +266,8 @@
           </div>
         </div>
       </div>
+      <!--! navbar dropdown end -->
+       <!--! navbar responsive dropdown end -->
       <div class="navbar__middle__dropdown--responsive">
         <div
           class="navbar__middle__left__ul__Responsive dNoneResponsive2 dNoneResponsive3"
@@ -399,8 +409,10 @@
           </ul>
         </div>
       </div>
+       <!--! navbar responsive dropdown end -->
     </div>
-
+    <!--! navbar end -->
+    <!--! intro start -->
     <div class="intro">
       <img src="img/index/intro/intro.jpeg" alt="" />
       <div class="intro__div">
@@ -427,12 +439,58 @@
         </div>
       </div>
     </div>
+    <!--! intro end -->
+    <!--! products start -->
+      <div class="products">
+        <div class="products__header">
+          <ul class="aaa">
+            <li>DRESSES</li>
+            <li>TOPS</li>
+            <li>BOTTOMS</li>
+          </ul>
+        </div>
+        <div class="products__body glide">
+          <div class="glide__arrows product__slider__button product__slider__button--previous" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas" id="navbar__top__i--previous">&#xf104;</i></button>
 
+          </div>
+          <div class="glide__track" data-glide-el="track">
+            <ul class="products__body__list glide__slides">
+              <!-- <li class="products__body__list__item glide__slide">
+                <div class="products__body__item__img">
+                  <p>SALE</p>
+                  <img class="first" src="img/index/slider/dressesProducts/product1/1.webp" alt="">
+                  <img class="second" src="img/index/slider/dressesProducts/product1/2.webp" alt="">
+
+                </div>
+                <div class="products__body__item__info">
+                  <p>MAXI BELTED DRESS</p>
+                  <div>
+                    <p class="newPrice">$129.00</p>
+                    <p class="oldPrice">$129.00</p>
+                  </div>            
+                </div>
+              </li>             -->
+            </ul>
+          </div>
+          <div class="glide__arrows product__slider__button product__slider__button--next" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas">&#xf105;</i></button>
+          </div>
+        </div>
+      </div>
+
+    <!--! products end -->
+
+    <script src="js/layout/navbar.js"></script>
+    <script src="js/glide.js" type="module"></script>
+    <script src="js/component/index/productSlider.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
     <script
       src="https://kit.fontawesome.com/2ce1731240.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/commonLayout.js"></script>
+    
   </body>
 </html>

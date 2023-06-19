@@ -242,3 +242,47 @@
     opacity: 0;
   }
 }
+
+.moveLeft{
+  animation: slideLeft 0.5s linear 1 normal both running;
+}
+@keyframes slideLeft {
+  0% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  25% {
+      transform: translateX(-25%);
+      opacity: 0;
+  }
+  50% {
+      transform: translateX(+25%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+.moveRight{
+  animation: slideRight 0.5s linear 1 normal both running;
+}
+@keyframes slideRight {
+  0% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  25% {
+      transform: translateX(25%);
+      opacity: 0;
+  }
+  50% {
+      transform: translateX(-25%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+

@@ -1,0 +1,125 @@
+.products {
+    padding: 80px;
+}
+
+.products .products__header {
+    display: flex;
+    justify-content: center;
+}
+.products .products__header ul {
+    display: flex;
+    list-style-type: none;
+}
+.products .products__header ul li {
+    margin: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    /* opacity: 0.7; */
+    cursor: pointer;
+    /* transition:opacity 0.15s linear; */
+}
+/* .products .products__header ul li:hover{
+    opacity: 1;
+}  */
+
+.products__body__list__item {
+    width: 20%;
+    position: relative;
+    cursor: pointer;
+}
+.products__body__item__img {
+    width: 100%;
+    height: 100%;
+}
+.products__body__item__img img {
+    width: 100%;
+}
+
+.products__body__item__img .second {
+    display: flex;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.products__body__item__img:hover .first {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.products__body__item__img:hover .second {
+    opacity: 1;
+    visibility: visible;
+}
+
+.products__body__item__img > p {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 20%;
+    height: 6%;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.products__body__item__info {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.products__body__item__info > div {
+    display: flex;
+    margin-top: 5px;
+}
+.products__body__item__info > div p {
+    margin-right: 10px;
+}
+.products__body__item__info > div p:nth-child(2) {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.product__slider__button{
+    position: absolute;
+    z-index: 4;
+    top: 40%;
+    transform: translate(-50%);
+    background-color: white;
+    cursor: pointer;
+}
+.product__slider__button button {
+    border: none;
+    background-color: unset;
+    scale: 2;
+    cursor: pointer;
+    padding: 22px;
+    
+}
+
+.product__slider__button--next {
+    right: 0;
+    transform: translate(50%);
+}
+.moveLeft{
+    animation: slideLeft 0.5s linear 1 normal both running;
+}
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    25% {
+        transform: translateX(-25%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(+25%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

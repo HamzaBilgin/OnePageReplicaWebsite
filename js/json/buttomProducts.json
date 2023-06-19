@@ -8,8 +8,8 @@
             "newPrice": 89.00
         },
         "img": {
-            "firstImage": "img/indexSlider/bottomsProducts/product1/1.webp",
-            "secondImage": "img/indexSlider/bottomsProducts/product1/2.webp"
+            "firstImage": "img/index/slider/bottomsProducts/product1/1.webp",
+            "secondImage": "img/index/slider/bottomsProducts/product1/2.webp"
 
         }
     },
@@ -20,8 +20,8 @@
             "newPrice": 89.00
         },
         "img": {
-            "firstImage": "img/indexSlider/bottomsProducts/product2/1.webp",
-            "secondImage": "img/indexSlider/bottomsProducts/product21/2.webp"
+            "firstImage": "img/index/slider/bottomsProducts/product2/1.webp",
+            "secondImage": "img/index/slider/bottomsProducts/product21/2.webp"
 
         }
     },
@@ -32,8 +32,8 @@
             "newPrice": 89.00
         },
         "img": {
-            "firstImage": "img/indexSlider/bottomsProducts/product3/1.webp",
-            "secondImage": "img/indexSlider/bottomsProducts/product3/2.webp"
+            "firstImage": "img/index/slider/bottomsProducts/product3/1.webp",
+            "secondImage": "img/index/slider/bottomsProducts/product3/2.webp"
 
         }
     },
@@ -45,8 +45,8 @@
             "newPrice": 49.00
         },
         "img": {
-            "firstImage": "img/indexSlider/bottomsProducts/product4/1.webp",
-            "secondImage": "img/indexSlider/bottomsProducts/product4/2.webp"
+            "firstImage": "img/index/slider/bottomsProducts/product4/1.webp",
+            "secondImage": "img/index/slider/bottomsProducts/product4/2.webp"
 
         }
     },
@@ -57,8 +57,8 @@
             "newPrice": 79.00
         },
         "img": {
-            "firstImage": "img/indexSlider/bottomsProducts/product5/1.webp",
-            "secondImage": "img/indexSlider/bottomsProducts/product5/2.webp"
+            "firstImage": "img/index/slider/bottomsProducts/product5/1.webp",
+            "secondImage": "img/index/slider/bottomsProducts/product5/2.webp"
 
         }
     },
@@ -70,8 +70,8 @@
             "newPrice": 79.00
         },
         "img": {
-            "firstImage": "img/indexSlider/bottomsProducts/product6/1.webp",
-            "secondImage": "img/indexSlider/bottomsProducts/product6/2.webp"
+            "firstImage": "img/index/slider/bottomsProducts/product6/1.webp",
+            "secondImage": "img/index/slider/bottomsProducts/product6/2.webp"
 
         }
     },
@@ -84,8 +84,8 @@
             "newPrice": 89.00
         },
         "img": {
-            "firstImage": "img/indexSlider/bottomsProducts/product7/1.webp",
-            "secondImage": "img/indexSlider/bottomsProducts/product7/2.webp"
+            "firstImage": "img/index/slider/bottomsProducts/product7/1.webp",
+            "secondImage": "img/index/slider/bottomsProducts/product7/2.webp"
 
         }
     },
@@ -96,8 +96,8 @@
             "newPrice": 89.00
         },
         "img": {
-            "firstImage": "img/indexSlider/bottomsProducts/product8/1.webp",
-            "secondImage": "img/indexSlider/bottomsProducts/product8/2.webp"
+            "firstImage": "img/index/slider/bottomsProducts/product8/1.webp",
+            "secondImage": "img/index/slider/bottomsProducts/product8/2.webp"
 
         }
     }
