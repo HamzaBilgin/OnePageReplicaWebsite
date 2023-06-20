@@ -97,3 +97,14 @@ transition:opacity 0.15s linear;
     opacity: 1;
 }
 /* üzerine gelince opacity i 0.7 den 1 e çıkarır end*/
+
+.blackBackground{
+    background-color: black;
+}
+
+.greyBackground{
+    background-color: #ECE2CC;
+}
+.whiteColor{
+    color: white;
+}
