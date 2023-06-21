@@ -1,4 +1,12 @@
 /* Button Animastions start*/
+.buttonAnimationWhiteToUpsetMainDiv > div {
+  height: 39.2px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-right: 20px;
+  align-items: center;
+}
 .buttonAnimationWhiteToUpset a,
 .buttonAnimationUpsetToWhite a {
   height: 39.2px;

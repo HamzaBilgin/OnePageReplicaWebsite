@@ -42,6 +42,7 @@ productsHeaderLi.forEach((item, i) => {
   item.addEventListener("click", () => {
     console.log(item.textContent);
     const aa = item.textContent.toLowerCase();
+    
     generateImg(aa)
       .then((result) => {
         console.log(result);
@@ -87,53 +88,22 @@ function generateTemplateProducts(result) {
       product.price.oldPrice !== undefined ? "$" + product.price.oldPrice : "";
     const status = product.status !== undefined ? product.status : "";
     console.log(product);
-    const li = document.createElement("li");
-    li.classList.add("products__body__list__item", "glide__slide");
-    const imgContainer = document.createElement("div");
-    imgContainer.classList.add("products__body__item__img");
-
-    const statusParagraph = document.createElement("p");
-    statusParagraph.textContent = status;
-    imgContainer.appendChild(statusParagraph);
-
-    const firstImage = document.createElement("img");
-    firstImage.classList.add("first");
-    firstImage.src = product.img.firstImage;
-    firstImage.alt = "";
-    imgContainer.appendChild(firstImage);
-
-    const secondImage = document.createElement("img");
-    secondImage.classList.add("second");
-    secondImage.src = product.img.secondImage;
-    secondImage.alt = "";
-    imgContainer.appendChild(secondImage);
-
-    li.appendChild(imgContainer);
-
-    const infoContainer = document.createElement('div');
-infoContainer.classList.add('products__body__item__info');
-
-const productNameParagraph = document.createElement('p');
-productNameParagraph.textContent = product.name;
-infoContainer.appendChild(productNameParagraph);
-
-const priceContainer = document.createElement('div');
-
-const newPriceParagraph = document.createElement('p');
-newPriceParagraph.classList.add('newPrice');
-newPriceParagraph.textContent = '$' + product.price.newPrice;
-priceContainer.appendChild(newPriceParagraph);
-
-const oldPriceParagraph = document.createElement('p');
-oldPriceParagraph.classList.add('oldPrice');
-oldPriceParagraph.textContent = oldPrice;
-priceContainer.appendChild(oldPriceParagraph);
-
-infoContainer.appendChild(priceContainer);
-
-li.appendChild(infoContainer);
-    productsHtml.appendChild(li);
-    console.log(li);
+    const html = `<li class="products__body__list__item glide__slide">
+    <div class="products__body__item__img">
+      <p>${status}</p>
+      <img class="first" src="${product.img.firstImage}" alt="">
+      <img class="second" src="${product.img.secondImage}" alt="">
+  
+    </div>
+    <div class="products__body__item__info">
+      <p>${product.name}</p>
+      <div>
+        <p class="newPrice">$${product.price.newPrice}</p>
+        <p class="oldPrice">${oldPrice}</p>
+      </div>            
+    </div>
+  </li>  `;
+  productsHtml.innerHTML += html;
   });
   const statusP = document.querySelectorAll(".products__body__item__img > p");
   statusP.forEach((item) => {
