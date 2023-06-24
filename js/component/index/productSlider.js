@@ -40,12 +40,10 @@ buttons.forEach((button) => {
 /* ProductSlider html dolumu start */
 productsHeaderLi.forEach((item, i) => {
   item.addEventListener("click", () => {
-    console.log(item.textContent);
     const aa = item.textContent.toLowerCase();
     
     generateImg(aa)
       .then((result) => {
-        console.log(result);
         generateTemplateProducts(result);
       })
       .catch((error) => {
@@ -69,7 +67,7 @@ const generateImg = async (search) => {
 /* Gelen veriler ile generateTemplateProducts(result) çağırarak html düzenler start*/
 generateImg("dresses")
   .then((result) => {
-    console.log(result);
+
     generateTemplateProducts(result);
   })
   .catch((error) => {
@@ -87,7 +85,6 @@ function generateTemplateProducts(result) {
     const oldPrice =
       product.price.oldPrice !== undefined ? "$" + product.price.oldPrice : "";
     const status = product.status !== undefined ? product.status : "";
-    console.log(product);
     const html = `<li class="products__body__list__item glide__slide">
     <div class="products__body__item__img">
       <p>${status}</p>

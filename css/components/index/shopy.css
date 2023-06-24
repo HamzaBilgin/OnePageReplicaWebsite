@@ -49,5 +49,14 @@
     display: flex;
     margin-top: 20px;
   }
+
+  @media (max-width: 769px) {
+    .shopy__body ul{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: auto;
+        list-style-type: none;
+    }
+  }
   
 

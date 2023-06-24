@@ -26,9 +26,7 @@
     position: relative;
     cursor: pointer;
 }
-.products__body__item__img {
-  
-}
+
 .products__body__item__img img {
     width: 100%;
 }

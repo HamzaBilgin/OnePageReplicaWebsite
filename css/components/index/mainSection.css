@@ -1,0 +1,212 @@
+.main--section {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.main--section > div {
+    width: 45%;
+    margin-left: 4px;
+}
+
+.main--section > div img {
+    width: 100%;
+}
+
+/* .main--section div:first-child div{
+    position: relative;
+    
+} */
+/*! main--section__first css start */
+.main--section__first div:first-child {
+    position: relative;
+}
+
+.main--section__first .main--section__circle {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.main--section__first .main--section__circle div {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.main--section__first .main--section__middleCircle {
+    top: 50%;
+    left: 50%;
+}
+
+.main--section__first .main--section__bottomCircle {
+    top: 83%;
+    left: 26%;
+}
+
+.main--section__middleCircle__div {
+    transition: all 0.15s linear;
+}
+.main--section__first .main--section__circle:hover .main--section__middleCircle__div {
+    width: 16px;
+    height: 16px;
+}
+
+/*! main--section__first css end */
+/*!main--section__second css start */
+.main--section__second {
+    background-color: #ece2cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main--section__second__Plist {
+    margin-bottom: 20px;
+}
+.main--section__second .main--section__second__Plist p {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: -1px;
+}
+.main--section__second .main--section__second__Plist p:first-of-type {
+    font-size: 25px;
+}
+
+.main--section__second__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*! main--section__second css end */
+/*! main--section__third css start */
+.main--section__third {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.main--section__third > div:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ece2cc;
+    cursor: pointer;
+    
+}
+.main--section__third > div:nth-child(2) p{
+    transition:all 0.15s linear;
+ }
+.main--section__third > div:nth-child(2):hover p{
+   scale: 1.2;
+}
+
+.main--section__third img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.main--section__third > div:nth-child(3) {
+    padding: 10px;
+    background-color: #ece2cc;
+}
+.main--section__third > div:nth-child(3) > div:nth-child(2) {
+    display: none;
+ }
+.main--section__third > div:nth-child(3) > div:nth-child(1) a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.main--section__third > div a p {
+    padding: 5px;
+}
+.main--section__third > div a p:first-child {
+    font-weight: 600;
+}
+/*! main--section__third css end */
+/*! main--section__fourth css start */
+
+/*! main--section__fourth  css end */
+/*! responsive start */
+@media (max-width: 769px) {
+    .main--section {
+        display: block;
+        margin-top: 70px;
+        margin: 15px;
+    }
+    .main--section > div {
+        margin: 0px !important;
+        width: 100%;
+        object-fit: fill;
+    }
+    .main--section > div img {
+        object-fit: fill;
+    }
+    .main--section__second {
+        padding: 20px;
+    }
+
+    .main--section__third {
+        position: relative;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    /* .main--section__first {
+        display: none;
+    } */
+    .main--section__third > div:nth-child(3) {
+       width: 100%;
+       display: grid;
+       grid-template-columns: auto;
+    }
+    
+   
+    .main--section__third img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+    .main--section__third > div:nth-child(3) > div:nth-child(1) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    .main--section__third > div:nth-child(3) > div:nth-child(2) {
+       display: flex;
+       
+     }
+     .main--section__third > div:nth-child(3) > div:nth-child(2) p{
+        color: white!important;
+        
+      }
+}
+
+/*! responsive end */

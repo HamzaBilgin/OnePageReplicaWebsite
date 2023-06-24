@@ -1,4 +1,81 @@
+.buttonAnimationBlackToUpsetMainDiv{
+  display: flex;
+  }
+  .buttonAnimationBlackToUpsetMainDiv > div {
+    height: 39.2px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-right: 20px;
+    align-items: center;
+  }
+  .buttonAnimationBlackToUpset a{
+    height: 39.2px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  
+  .buttonAnimationBlackToUpsetP a {
+    color: white;
+    position: relative;
+    z-index: 3;
+    transition: all 0.4s ease;
+    width: 100%;
+  }
+  
+  .buttonAnimationBlackToUpset {
+    background-color: unset;
+    z-index: 1;
+  }
+  
+  .buttonAnimationBlackToUpset .buttonAnimationBlackToUpsetP a:hover {
+    color: black;
+  }
+  
+  .buttonAnimationBlackToUpset > div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    transform-origin: right;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+    z-index: 2;
+  }
+  
+  .buttonAnimationBlackToUpset> div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    transform-origin: left;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+    z-index: 2;
+  }
+  .buttonAnimationBlackToUpset > div:hover::before {
+    transform: scaleX(0);
+  }
+  .buttonAnimationBlackToUpset > div:hover::after {
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+ 
 /* Button Animastions start*/
+.buttonAnimationWhiteToUpsetMainDiv{
+display: flex;
+}
 .buttonAnimationWhiteToUpsetMainDiv > div {
   height: 39.2px;
   display: flex;
