@@ -1,0 +1,182 @@
+.bottomIntro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+   
+}
+.bottomIntro>div:first-child{
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  overflow: hidden;
+}
+.bottomIntro > div:first-child {
+  width: 100%;
+  transition: all 1s linear;
+}
+.bottomIntro img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.bottomIntro img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  transform: translateZ(50px);
+}
+
+
+.animationWhiteTowardsInside > div:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  transform-origin: left;
+  transform: scaleX(0);
+  z-index: 2;
+  animation: whiteTowardInside 1s linear 1 normal both running;
+}
+/* 
+  .bottomIntro>div:hover::before {
+    transform: scaleX(0.2);
+  } */
+
+.animationWhiteTowardsInside > div:nth-child(1):after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  transform-origin: right;
+  transform: scaleX(0);
+  z-index: 2;
+  animation: whiteTowardInside 1s linear 1 normal both running;
+}
+
+/* .bottomIntro>div:hover::after {
+    transform: scaleX(0.2);
+  } */
+  .animationWhiteTowardsOutside > div:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    transform-origin: left;
+    transform: scaleX(0.2);
+    z-index: 2;
+    animation: whiteTowardOutside 1s linear 1 normal both running;
+  }
+  /* 
+    .bottomIntro>div:hover::before {
+      transform: scaleX(0.2);
+    } */
+  
+  .animationWhiteTowardsOutside > div:nth-child(1):after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    transform-origin: right;
+    transform: scaleX(0.2);
+    z-index: 2;
+    animation: whiteTowardOutside 1s linear 1 normal both running;
+  }
+@keyframes whiteTowardInside {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(0.2);
+  }
+}
+
+@keyframes whiteTowardOutside {
+  0% {
+    transform: scaleX(0.2);
+  }
+  100% {
+    transform: scaleX(0);
+  }
+}
+
+.bottomIntro__button {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottomIntro__button__shop {
+  border-top: 5px solid black;
+  width: 368px;
+  height: 156px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.bottomIntro__button__shop > div {
+  display: flex;
+}
+
+.bottomIntro__button__shop > div:nth-child(1) p {
+  font-size: 50px;
+}
+
+.bottomIntro__button__shop > div:nth-child(2) {
+  padding-bottom: 20px;
+}
+
+.bottomIntro__button .bottomIntro__button__link {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bottomIntro__button .bottomIntro__button__link a {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  width: 486px;
+  height: 60px;
+}
+
+.bottomIntro__button .bottomIntro__button__link a p:nth-child(1) {
+  color: black;
+  margin-right: 20px;
+}
+
+.bottomIntro__button .bottomIntro__button__link a p:nth-child(2) {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.animationWhiteTowardsInside {
+  transition: all 1s linear;
+}
+
+.animationWhiteTowardsInside.remove-animation {
+  transform: scaleX(0);
+}

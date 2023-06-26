@@ -58,6 +58,16 @@
     height: 16px;
 }
 
+.main--section__first>div:first-child {
+    transform-style: preserve-3d;
+overflow: hidden;
+perspective: 1000px;
+}
+
+.main--section__first img{
+    transform: translateZ(100px);
+}
+
 /*! main--section__first css end */
 /*!main--section__second css start */
 .main--section__second {
@@ -175,7 +185,13 @@
         align-items: end;
     }
     /* .main--section__first {
-        display: none;
+        transform-style: preserve-3d;
+  overflow: hidden;
+  perspective: 1000px;
+    }
+
+    .main--section__first img{
+        transform: translateZ(1000px);
     } */
     .main--section__third > div:nth-child(3) {
        width: 100%;

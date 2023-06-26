@@ -1,0 +1,50 @@
+.middleIntro {
+    position: relative;
+    display: inline-block;
+    margin-top: 70px;
+    /* position: relative;
+      width: 100%;
+      height: 500px;
+      z-index: -1; */
+  }
+  
+  .middleIntro img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* position: absolute;
+      width: 100vw;
+      z-index: -1; */
+  }
+  .middleIntro__div {
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+    /* transform: translate(-50%, -50%); */
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .middleIntro .middleIntro__text p {
+    text-align: start;
+  }
+  
+  .middleIntro .middleIntro__text .middleIntro__p1 {
+    font-size: 20px;
+  }
+  
+  .middleIntro .middleIntro__text .middleIntro__p2 {
+    font-size: 42px;
+  }
+  
+  .middleIntro .middleIntro__button {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  

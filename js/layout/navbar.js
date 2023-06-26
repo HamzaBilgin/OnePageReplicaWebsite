@@ -75,7 +75,7 @@ function noResponsive() {
         );
         middliDropdown.classList.remove("dNone");
         dropdownLi.forEach((item, i) => {
-          item.classList.add(`dNoneAnimationLiUp--${i + 1}`);
+          item.classList.add(`downToUpAnimation--${i + 1}`);
           i++;
         });
       });
