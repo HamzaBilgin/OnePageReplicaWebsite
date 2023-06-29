@@ -490,3 +490,44 @@ display: flex;
     transform: translateZ(0px);
   }
 }
+
+.downToBottom--1{
+  animation: downToBottom 0.15s cubic-bezier(.4,0,.2,1) 0.3s 1 normal both running
+}
+.downToBottom--2{
+  animation: downToBottom 0.15s cubic-bezier(.4,0,.2,1) 0.15s 1 normal both running
+}
+.downToBottom--3{
+  animation: downToBottom 0.15s cubic-bezier(.4,0,.2,1) 0s 1 normal both running
+}
+
+.raiseToTop--1{
+  animation: raiseToTop 0.15s cubic-bezier(.4,0,.2,1) 0.3s 1 normal both running
+}
+.raiseToTop--2{
+  animation: raiseToTop 0.15s cubic-bezier(.4,0,.2,1) 0.15s 1 normal both running
+}
+.raiseToTop--3{
+  animation: raiseToTop 0.15s cubic-bezier(.4,0,.2,1) 0s 1 normal both running
+}
+
+@keyframes downToBottom{
+  0% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+}
+@keyframes raiseToTop{
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}

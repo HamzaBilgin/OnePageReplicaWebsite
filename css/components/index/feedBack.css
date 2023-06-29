@@ -1,0 +1,49 @@
+.feedBack{
+    padding: 80px 160px;
+    font-family: sans-serif;
+    background-color: #ECE2CC;
+}
+.feedBackHeader{
+    text-align: center;
+    font-weight: bold;
+}
+
+.feedBackHeader p:nth-child(1){
+    font-size: 28px;
+}
+
+.feedBackHeader p:nth-child(2){
+    font-size: 80px;
+}
+.feedBackComment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.feedBackComment__arrow__button{
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+}
+.feedBackComment__body{
+    text-align: center;
+    padding: 0 80px 0 80px;
+    width: 75%;
+    height: 128px;
+    
+}
+
+.feedBackComment__body p{
+    padding: 0 0 24px 0;
+}
+
+.feedBackComment__arrow__button button{
+    width: 44px;
+    height: 44px;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+    scale: 2;
+}
