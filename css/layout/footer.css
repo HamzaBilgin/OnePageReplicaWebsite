@@ -1,0 +1,115 @@
+.footer{
+    background-color: #261d09;
+}
+
+.footer .footer__top {
+    padding: 40px 80px 80px 80px;
+    height: 307px;
+}
+
+.footer__top > ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer__top > ul > li:nth-child(1) {
+    font-size: 25px;
+    width: 140px;
+    height: 187px;
+    font-weight: bold;
+}
+
+.footer__top > ul > li:not(:nth-child(1)) {
+    font-size: 20px;
+}
+.footer__top > ul > li:nth-child(2) {
+    width: 325px;
+    height: 187px;
+}
+
+.footer__top > ul > li:nth-child(2) p:first-child {
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.footer__top > ul > li:nth-child(2) p:nth-child(2) {
+    margin-bottom: 20px;
+}
+.footer__top__input {
+    display: flex;
+    width: 325px;
+    height: 53px;
+    position: relative;
+}
+
+.footer__top__input>div {
+    width: 100%;
+    height: 100%;
+
+}
+.footer__top__input>p {
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+    padding: 10px;
+}
+
+.footer__top__input input[type="text"] {
+    width: 100%;
+    height: 100%;
+    background-color: unset;
+    border: 3px solid white;
+}
+.footer__top > ul > li:nth-child(3) p{
+    font-weight: bold;
+}
+.footer__top > ul > li:nth-child(3) ul{
+    list-style: none;
+}
+.footer__top > ul > li:nth-child(3) ul li{
+    font-size: 20px;
+    margin-top: 24px;
+}
+.footer__top > ul > li:nth-child(3) ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer__top > ul > li:nth-child(4){
+    width: 160px;
+    height: 182px;
+}
+.footer__top > ul > li:nth-child(4) ul{
+    margin-top: 24px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__top > ul > li:nth-child(4) ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer__top > ul > li:nth-child(4) ul li a p{
+    scale: 0.8;
+    transition:all 0.15s linear;
+}
+
+.footer__top > ul > li:nth-child(4) ul li a:hover p{
+    scale: 1;
+}
+
+.footer__bottom{
+    width: 100%;
+    height: 72px;
+    padding: 24px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__bottom a{
+   text-decoration: none;
+   color: white;
+}
+

@@ -1,0 +1,39 @@
+  .signUp{
+    font-family: sans-serif;
+    padding: 80px 160px;
+    background-color: #ECE2CC;
+  }
+  .signUp>div:nth-child(1){
+    text-align: center;
+  }
+  .signUp>div p:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .signUp>div p:nth-child(2){
+    font-size: 75px;
+    font-weight: bold;
+  }
+
+  .signUp>div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .signUp input[type="text"] {
+    padding: 10px;
+    outline: none;
+    min-width: 300px;
+    font-size: 16px;
+  }
+
+  .signUp input[type="text"]:focus {
+    border: 2px solid black;
+    caret-color: black;
+  }
+  .signUp input[type="text"]::-webkit-input-placeholder {
+    font-weight: bold;
+  }
